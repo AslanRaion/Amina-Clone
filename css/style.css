@@ -176,3 +176,37 @@ h1 {
   font-size: 100px;
   font-weight: 500;
 }
+
+.usp {
+  display: flex;
+  padding: 0 20px;
+  height: 600px;
+}
+
+.usp-header {
+  font-size: 56px;
+}
+
+.usp-text {
+  width: 40%;
+  background-color: var(--text-dark);
+  color: var(--text-light);
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.usp-image {
+  width: 60%;
+}
+
+.usp-image img {
+  height: 600px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.usp-btn {
+  width: fit-content;
+}
